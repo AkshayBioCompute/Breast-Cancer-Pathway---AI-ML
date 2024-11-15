@@ -1,0 +1,5 @@
+{
+    "drug_target_prediction.expression": "/home/akshay/Akshay/Breast_cancer_patway_AI_ML/data/gene_expression.csv",
+    "drug_target_prediction.pathway": "/home/akshay/Akshay/Breast_cancer_patway_AI_ML/data/pathway_genes.csv",
+    "drug_target_prediction.mutation": "/home/akshay/Akshay/Breast_cancer_patway_AI_ML/data/mutation_data.csv"
+}
