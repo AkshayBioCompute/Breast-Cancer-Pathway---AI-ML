@@ -1,35 +1,30 @@
 # Breast-Cancer-Pathway---AI-ML
 
-Here’s a detailed `README.md` for your GitHub repository:
+Here's the updated folder structure and the full `README.md` file reflecting the changes you requested:
+### **README.md`:**
 
 ```markdown
-# AI-Based Drug Discovery Pipeline
+# Breast-Cancer-Pathway-AI-ML
 
 This repository implements a complete AI-driven pipeline for drug discovery using gene expression, pathway, and mutation data. The workflow includes data preprocessing, feature engineering, machine learning-based prediction, and result validation.
 
 ## **Folder Structure**
 
 ```plaintext
-drug_target_prediction/
-├── data/                          # Raw data files
-│   ├── gene_expression.csv
-│   ├── pathway_genes.csv
-│   ├── mutation_data.csv
-├── results/                       # Processed results
-│   ├── predictions.csv
-│   ├── feature_importance.png
-│   ├── ppi_network.png
+Breast-Cancer-Pathway-AI-ML/
 ├── src/                           # Python scripts for each step
-│   ├── preprocess_data.py
-│   ├── feature_engineering.py
-│   ├── train_model.py
-│   ├── validate_predictions.py
-│   ├── visualize_results.py
+│   ├── preprocess_data.py         # Data preprocessing
+│   ├── feature_engineering.py     # Feature engineering
+│   ├── train_model.py            # Model training
+│   ├── validate_predictions.py   # Prediction validation
+│   └── visualize_results.py      # Visualization of results
 ├── workflows/                     # Workflow definitions
-│   ├── Snakefile                  # Snakemake pipeline
+│   ├── snakefile                  # Snakemake pipeline definition
 │   ├── nextflow.config            # Nextflow configuration
 │   ├── main.nf                    # Nextflow pipeline
 │   ├── workflow.wdl               # WDL workflow
+├── input.json                     # Input data for workflows
+├── LICENSE                        # License file
 ├── requirements.txt               # Python dependencies
 └── README.md                      # Project documentation
 ```
@@ -40,8 +35,8 @@ drug_target_prediction/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/AI-drug-discovery-pipeline.git
-   cd AI-drug-discovery-pipeline
+   git clone https://github.com/AkshayBioCompute/Breast-Cancer-Pathway-AI-ML.git
+   cd Breast-Cancer-Pathway-AI-ML
    ```
 
 2. Set up a Python environment:
@@ -114,7 +109,7 @@ Run the entire pipeline with workflow engines:
 
 1. **Snakemake**:
    ```bash
-   snakemake --snakefile workflows/Snakefile
+   snakemake --snakefile workflows/snakefile
    ```
 
 2. **Nextflow**:
@@ -144,16 +139,3 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ## **License**
 This project is licensed under the MIT License. See `LICENSE` for details.
-
----
-
-## **Acknowledgments**
-Special thanks to the research community for providing datasets and inspiration for this pipeline.
-
----
-
-## **Contact**
-For questions or feedback, please contact [your-email@example.com].
-```
-
-Let me know if you’d like to customize any part of the `README.md` or add more information!
